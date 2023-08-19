@@ -12,7 +12,12 @@ function signUp(name, email, isPaid) {
 }
 signUp("raj", "raj@gmail", true);
 var arr = [1, 2, 3];
-arr = arr.map(function (val) {
+arr.map(function (val) {
     return val + 1;
 });
-console.log(arr);
+function consoleError(errmsg) {
+    console.log(errmsg);
+}
+function handleError(errmsg) {
+    throw new Error(errmsg);
+}

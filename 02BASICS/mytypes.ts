@@ -28,4 +28,4 @@ type cardNumber = {
 type cardDate = {
   cardDate: string;
 };
-type cardDetails = cardNumber & cardDate; // combining types
+type cardDetails = cardNumber & cardDate; // combining types //
